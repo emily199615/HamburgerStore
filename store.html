@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="company" content="今天不減肥">
+    <meta name="copyright" content="2022 © 今天不減肥 │ All Rights Reserved.">
+    <meta name="creation-date" content="2022-1-25 GTM+8">
+    <!-- 描述、關鍵字 -->
+    <meta name="description" content="今天不減肥餐廳提供道地的美式食物、特色飲品與客製化服務。不論你是與家人朋友聯繫感情；還是尋求週末般的解放，我們皆提供最完美的休閒場所。">
+    <meta name="keywords" content="美式餐廳, 美式料理, 漢堡, 薯條, 熱狗, 熱狗堡, 飲料, steak, American-styled restaurant, American foods">
+    <meta name="author" content="Emily Lin">
+    <title>今 天 不 減 肥 ｜全 台 灣 最 好 吃 的 漢 堡</title>
+    <!-- reset -->
+    <link rel="stylesheet" href="./css/common/reset.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/boostrap/bootstrap.min.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Serif+TC:wght@600&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/store.css">
+    <!-- plugins -->
+    <link rel="stylesheet" href="./css/plugins/animate/animate.css">
+    <!-- rwd -->    
+    <link rel="stylesheet" href="./css/rwd.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>
+                <a href="./index.html">
+                    <img class="hearder-logo" src="./images/icon/index-logo.png" alt="今天不減肥 Failed to lose weight" data-src="./images/icon/index-logo.png" title="今天不減肥 Failed to lose weight">
+                </a>
+            </h1>             
+            <ul id="Menu">
+                <li><a href="about.html"><span>Abous us</span>關於我們</a></li>
+                <li><a href="news.html"><span>NEWS</span>最新活動</a></li>
+                <li><a href="menu.html"><span>Menu</span>美味餐點</a></li>
+                <li><a href="store.html"><span>Store</span>分店資訊</a></li>
+                <li><a href="join-us.html"><span>Join us</span>加入我們</a></li>
+                <li><a href="contact.html"><span>Contact</span>聯絡我們</a></li>                   
+            </ul>
+            <div class="nav-icon">
+                <a href="https://www.instagram.com/">
+                    <img src="./images/icon/instagram-brands.svg" alt="">
+                </a>
+                <a href="https://www.facebook.com/">
+                    <img src="./images/icon/facebook-brands.svg" alt="">
+                </a>
+                <a href="https://line.me/zh-hant/">
+                    <img src="./images/icon/line-brands.svg" alt="">
+                </a>    
+            </div>
+            <div class="app-block">
+                <a id="open-app" onclick="openApp()"><i class="material-icons">&#xe5d2;</i></a>
+                <a id="close-app" onclick="closeApp()"><i class="material-icons">&#xe5cd;</i></a>
+            </div>
+        </nav>
+    </header>
+    <div class="wrap">
+        <div class="contain">
+            <h2>分店資訊</h2>
+            <h3>Store</h3>
+            <div class="store-item">
+                <div class="store-item-img"><img src="./images/store/store-2.png" alt=""></div>
+                
+                <div class="store-text">
+                    <h4>淡水店</h4>
+                    <h6>TAMSUI</h6>
+                    <span class="tel">(02)2968-6557</span>
+                    <span class="adress">新北市淡水區中正路168號</span>
+                    <h5>營業時間：11:00至21:00</h5>
+                    <h5 class="payment-method">
+                        <span>付款方式：</span>
+                       <span>悠遊卡</span><img src="./images/icon/icon_easyCard.png" alt="">
+                       <span>信用卡</span><img src="./images/icon/card_logo.svg.png" alt="">
+                    </h5> 
+                </div>        
+            </div>
+
+            <div class="store-item">
+                <div class="store-item-img"><img src="./images/store/store-3.png" alt=""></div>
+                
+                <div class="store-text">
+                    <h4>公館店</h4>
+                    <h6>GONGUAN</h6>
+                    <span class="tel">(02)2937-69508</span>
+                    <span class="adress">台北市大安區汀州路二段233號2樓</span>
+                    <h5>營業時間：11:00至21:00</h5>
+                    <h5 class="payment-method">
+                        <span>付款方式：</span>
+                        <span>悠遊卡</span><img src="./images/icon/icon_easyCard.png" alt="">
+                        <span>信用卡</span><img src="./images/icon/card_logo.svg.png" alt="">
+                    </h5>
+                </div>  
+            </div>
+
+            <div class="store-item">
+                <div class="store-item-img"><img src="./images/store/store-4.png" alt=""></div>
+                
+                <div class="store-text">
+                    <h4>桃園店</h4>
+                    <h6>TAOYUAN</h6>
+                    <span class="tel">(03)234-6766</span>
+                    <span class="adress">桃園市桃園區國豐三街12號</span>
+                    <h5>營業時間：11:00至21:00</h5>
+                    <h5 class="payment-method">
+                        <span>付款方式：</span>
+                        <span>悠遊卡</span><img src="./images/icon/icon_easyCard.png" alt="">
+                        <span>信用卡</span><img src="./images/icon/card_logo.svg.png" alt="">
+                    </h5>
+                </div>  
+            </div>
+
+            <div class="store-item">
+                <div class="store-item-img"><img src="./images/store/store-5.png" alt=""></div>
+                
+                <div class="store-text">
+                    <h4>新竹店</h4>
+                    <h6>TAIPEI</h6>
+                    <span class="tel">(03)698-1268</span>
+                    <span class="adress">新竹市北區國安街169號</span>
+                    <h5>營業時間：11:00至21:00</h5>
+                    <h5 class="payment-method">
+                        <span>付款方式：</span>
+                        <span>悠遊卡</span><img src="./images/icon/icon_easyCard.png" alt="">
+                        <span>信用卡</span><img src="./images/icon/card_logo.svg.png" alt="">
+                    </h5>
+                </div>  
+            </div>
+
+            <div class="store-item">
+                <div class="store-item-img"><img src="./images/store/store-6.png" alt=""></div>
+                
+                <div class="store-text">
+                    <h4>竹北店</h4>
+                    <h6>TAIPEI</h6>
+                    <span class="tel">(03)679-3466</span>
+                    <span class="adress">新竹縣竹北市中華路383號</span>
+                    <h5>營業時間：11:00至21:00</h5>
+                    <h5 class="payment-method">
+                        <span>付款方式：</span>
+                        <span>悠遊卡</span><img src="./images/icon/icon_easyCard.png" alt="">
+                        <span>信用卡</span><img src="./images/icon/card_logo.svg.png" alt="">
+                    </h5>
+                </div>  
+            </div>
+
+            <div class="store-item">
+                <div class="store-item-img"><img src="./images/store/store-7.png" alt=""></div>
+                
+                <div class="store-text">
+                    <h4>台中店</h4>
+                    <h6>TAICHUNG</h6>
+                    <span class="tel">(04)2236-7748</span>
+                    <span class="adress">台中市北區市政一路123號2樓</span>
+                    <h5>營業時間：11:00至21:00</h5>
+                    <h5 class="payment-method">
+                        <span>付款方式：</span>
+                        <span>悠遊卡</span><img src="./images/icon/icon_easyCard.png" alt="">
+                        <span>信用卡</span><img src="./images/icon/card_logo.svg.png" alt="">
+                    </h5>
+                </div>  
+            </div>
+
+            <div class="store-item">
+                <div class="store-item-img"><img src="./images/store/store-8.png" alt=""></div>
+                
+                <div class="store-text">
+                    <h4>西屯店</h4>
+                    <h6>XITUN</h6>
+                    <span class="tel">(04)2632-9968</span>
+                    <span class="adress">台中市西屯區西屯二路256巷6號</span>
+                    <h5>營業時間：11:00至21:00</h5>
+                    <h5 class="payment-method">
+                        <span>付款方式：</span>
+                        <span>悠遊卡</span><img src="./images/icon/icon_easyCard.png" alt="">
+                        <span>信用卡</span><img src="./images/icon/card_logo.svg.png" alt="">
+                    </h5>
+                </div>  
+            </div>
+
+            <div class="store-item">
+                <div class="store-item-img"><img src="./images/store/store-9.png" alt=""></div>
+                
+                <div class="store-text">
+                    <h4>南屯店</h4>
+                    <h6>NANTUN</h6>
+                    <span class="tel">(04)2568-5918</span>
+                    <span class="adress">台中市南屯區南屯路二段407號</span>
+                    <h5>營業時間：11:00至21:00</h5>
+                    <h5 class="payment-method">
+                        <span>付款方式：</span>
+                        <span>悠遊卡</span><img src="./images/icon/icon_easyCard.png" alt="">
+                        <span>信用卡</span><img src="./images/icon/card_logo.svg.png" alt="">
+                    </h5>
+                </div>  
+            </div>
+
+            <div class="store-item">
+                <div class="store-item-img"><img src="./images/store/store-10.png" alt=""></div>
+                
+                <div class="store-text">
+                    <h4>嘉義店</h4>
+                    <h6>CHIAYI</h6>
+                    <span class="tel">(05)222-2433</span>
+                    <span class="adress">嘉義市西區中山路325號</span>
+                    <h5>營業時間：11:00至21:00</h5>
+                    <h5 class="payment-method">
+                        <span>付款方式：</span>
+                        <span>悠遊卡</span><img src="./images/icon/icon_easyCard.png" alt="">
+                        <span>信用卡</span><img src="./images/icon/card_logo.svg.png" alt="">
+                    </h5>
+                </div>  
+            </div>
+
+            <div class="store-item">
+                <div class="store-item-img"><img src="./images/store/store-11.png" alt=""></div>
+                
+                <div class="store-text">
+                    <h4>台南店</h4>
+                    <h6>TAINAN</h6>
+                    <span class="tel">(06)222-2322</span>
+                    <span class="address">台南市中西區大德街38號</span>
+                    <h5>營業時間：11:00至21:00</h5>
+                    <h5 class="payment-method">
+                        <span>付款方式：</span>
+                        <span>悠遊卡</span><img src="./images/icon/icon_easyCard.png" alt="">
+                        <span>信用卡</span><img src="./images/icon/card_logo.svg.png" alt="">
+                    </h5>
+                </div>  
+            </div>
+
+            <div class="store-item">
+                <div class="store-item-img"><img src="./images/store/store-12.png" alt=""></div>
+                <div class="store-text">
+                    <h4>高雄店</h4>
+                    <h6>KAOSIUNG</h6>
+                    <span class="tel">(07)652-0487</span>
+                    <span class="adress">高雄市小港區小港路31號</span>
+                    <h5>營業時間：11:00至21:00</h5>
+                    <h5 class="payment-method">
+                        <span>付款方式：</span>
+                        <span>悠遊卡</span><img src="./images/icon/icon_easyCard.png" alt="">
+                        <span>信用卡</span><img src="./images/icon/card_logo.svg.png" alt="">
+                    </h5>
+                </div>  
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <footer>
+        <div class="text">
+            <img class="footer-logo" src="./images/icon/footer-logo.svg" alt="">
+            <p class="instruction">
+                圖片僅供參考，商品以各門市實際供應為準<br>
+                Failed to lose weight® is a Registered Trademark of  IP LLC. © <br>
+                2022 Failed to lose weight IP LLC. All Rights Reserved<br>
+            </p>
+            <ul id="footer-link">
+                <li><a href="about.html">關於我們</a></li>
+                <li><a href="news.html">最新活動</a></li>
+                <li><a href="menu.html">美味餐點</a></li>
+                <li><a href="store.html">分店資訊</a></li>
+                <li><a href="join us.html">加入我們</a></li>
+                <li><a href="contact.html">聯絡我們</a></li>
+            </ul>
+        </div>
+        <p>本網站為緯育TibaMe前端設計工程師班第74期學員專題作品，<br>
+            本平台僅供學習、展示之用。<br>
+            參考資源：Pinterest | Subway | Beardpapa.jp | Chili’s。<br>
+            若有侵權疑慮，您可以私訊 TibaMe前端設計工程師養成班 ，後續會由專人協助處理。
+        </p>
+    </footer>
+</body>
+<script src="./javascript/plugins/Jquery/jquery-3.6.0.min.js"></script>
+<script src="./javascript/common.js"></script><!--edit by cynthia-->
+</html>

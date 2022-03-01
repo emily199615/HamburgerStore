@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="company" content="今天不減肥">
+    <meta name="copyright" content="2022 © 今天不減肥 │ All Rights Reserved.">
+    <meta name="creation-date" content="2022-1-25 GTM+8">
+    <!-- 描述、關鍵字 -->
+    <meta name="description" content="今天不減肥餐廳提供道地的美式食物、特色飲品與客製化服務。不論你是與家人朋友聯繫感情；還是尋求週末般的解放，我們皆提供最完美的休閒場所。">
+    <meta name="keywords" content="美式餐廳, 美式料理, 漢堡, 薯條, 熱狗, 熱狗堡, 飲料, steak, American-styled restaurant, American foods">
+    <meta name="author" content="Emily Lin">
+    <title>今 天 不 減 肥 ｜全 台 灣 最 好 吃 的 漢 堡</title>
+    <!-- reset -->
+    <link rel="stylesheet" href="./css/common/reset.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/boostrap/bootstrap.min.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Serif+TC:wght@600&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/menu.css">
+    
+    <!-- rwd -->    
+    <link rel="stylesheet" href="./css/rwd.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>
+                <a href="./index.html">
+                    <img class="hearder-logo" src="./images/icon/index-logo.png" alt="今天不減肥 Failed to lose weight" data-src="./images/icon/index-logo.png" title="今天不減肥 Failed to lose weight">
+                </a>
+            </h1>             
+            <ul id="Menu">
+                <li><a href="about.html"><span>Abous us</span>關於我們</a></li>
+                <li><a href="news.html"><span>NEWS</span>最新活動</a></li>
+                <li><a href="menu.html"><span>Menu</span>美味餐點</a></li>
+                <li><a href="store.html"><span>Store</span>分店資訊</a></li>
+                <li><a href="join-us.html"><span>Join us</span>加入我們</a></li>
+                <li><a href="contact.html"><span>Contact</span>聯絡我們</a></li>                   
+            </ul>
+            <div class="nav-icon">
+                <a href="https://www.instagram.com/">
+                    <img src="./images/icon/instagram-brands.svg" alt="">
+                </a>
+                <a href="https://www.facebook.com/">
+                    <img src="./images/icon/facebook-brands.svg" alt="">
+                </a>
+                <a href="https://line.me/zh-hant/">
+                    <img src="./images/icon/line-brands.svg" alt="">
+                </a>    
+            </div>
+            <div class="app-block">
+                <a id="open-app" onclick="openApp()"><i class="material-icons">&#xe5d2;</i></a>
+                <a id="close-app" onclick="closeApp()"><i class="material-icons">&#xe5cd;</i></a>
+            </div>
+        </nav>
+    </header>
+      <div class="wrap">
+        <div class="contain">
+          <h2>美味餐點</h2>
+          <h3>Menu</h3>
+        </div>
+        <section id="food">
+          <h4>主食</h4>
+          <div class="container">
+              <div class="row food-item">
+                <div class="col-md-6 col-lg-4 col-sm-6 col-xl-4 col-xs-12">
+                    <div class="item wow bounceInUp">
+                        <img src="./images/menu/product-1.png" alt="">
+                        <h5>
+                            <a href="#">安格斯牛肉堡</a>
+                            <p>
+                                人氣第一名的漢堡，<br>
+                                吃過都說好吃！
+                            </p>
+                            <span>$99</span>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-6 col-xl-4 col-xs-12">
+                    <div class="item wow bounceInUp">
+                        <img src="./images/menu/product-3.png" alt="">
+                        <h5>
+                            <a href="#">黃金鮮蝦堡</a>
+                            <p>
+                                金黃鮮蝦炸得酥酥脆脆，<br>
+                                配上主廚特調醬料，豐富您的味蕾。
+                            </p>
+                            <span>$109</span>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-6 col-xl-4 col-xs-12">
+                    <div class="item wow bounceInUp">
+                        <img src="./images/menu/product-5.png" alt="">
+                        <h5>
+                            <a href="#">厚切雙享牛肉堡</a>
+                            <p>
+                                沒有什麼事情是吃肉肉不能解決的！<br>
+                                有的話，那就吃兩片肉肉！
+                            </p>
+                            <span>$129</span>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-6 col-xl-4 col-xs-12">
+                    <div class="item wow animate__bounceInUp">
+                        <img src="./images/menu/product-9.png" alt="">
+                        <h5>
+                            <a href="#">起司培根牛肉堡</a>
+                            <p>
+                                覺得漢堡只有牛肉太單調嗎？<br>
+                                那您絕對要試試看加了培根的牛肉堡！
+                            </p>
+                            <span>$109</span>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-6 col-xl-4 col-xs-12">
+                    <div class="item wow bounceInUp">
+                        <img src="./images/menu/product-10.png" alt="">
+                        <h5>
+                            <a href="#">花生炸蝦堡</a>
+                            <p>
+                                花生撞炸蝦，蹦出新滋味！<br>
+                                等你來嚐鮮！
+                            </p>
+                            <span>$139</span>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-6 col-xl-4 col-xs-12">
+                    <div class="item wow bounceInUp">
+                        <img src="./images/menu/product-11.png" alt="">
+                        <h5>
+                            <a href="#">嫩煎雞腿堡</a>
+                            <p>
+                                鮮嫩多汁的雞腿刷上照燒醬，<br>
+                                讓您美味加倍、飽足感也加倍。
+                            </p>
+                            <span>$139</span>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-6 col-xl-4 col-xs-12">
+                    <div class="item wow bounceInUp">
+                        <img src="./images/menu/product-2.png" alt="">
+                        <h5>
+                            <a class="" href="#">巨無霸熱狗堡</a>
+                            <p>
+                                今天不想吃漢堡？<br>
+                                或許可以試試加了蜂蜜芥末的巨無霸熱狗堡。
+                            </p>
+                            <span>$79</span>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-6 col-xl-4 col-xs-12">
+                    <div class="item wow bounceInUp">
+                        <img src="./images/menu/product-6.png" alt="">
+                        <h5>
+                            <a href="#">原味雞塊</a>
+                            <p>
+                                雞塊界的冠軍，<br>
+                                比麥當當和摩斯好吃。
+                            </p>
+                            <span>$59</span>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-6 col-xl-4 col-xs-12">
+                    <div class="item wow bounceInUp">
+                        <img src="./images/menu/product-12.png" alt="">
+                        <h5>
+                            <a href="#">金黃脆薯</a>
+                            <p>
+                                酥炸的金黃脆薯，<br>
+                                彷彿馬鈴薯在嘴巴裡跳舞！
+                            </p>
+                            <span>$79</span>
+                        </h5>
+                    </div>
+                </div>
+              </div>
+          </div> 
+      </section>
+      <section id="drink">
+          <h4>飲品</h4>
+          <div class="container">
+              <div class="row drink-item">
+                    <div class="col-md-6 col-lg-4 col-sm-6 col-xl-4 col-xs-12">
+                        <div class="item wow bounceInUp">
+                            <img src="./images/menu/product-13.png" alt="">
+                            <h5>
+                                <a href="#">青檸可樂</a>
+                                <p>
+                                    檸檬可樂酸酸甜甜，<br>
+                                    清爽又消暑！
+                                </p>
+                                <span>$59</span>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-6 col-xl-4 col-xs-12">
+                        <div class="item wow bounceInUp">
+                            <img src="./images/menu/product-14.png" alt="">
+                            <h5>
+                                <a href="#">柚子冰茶</a>
+                                <p>
+                                    酸酸甜甜的柚子配上冰茶，<br>
+                                    是解膩的好夥伴！
+                                </p>
+                                <span>$79</span>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-6 col-xl-4 col-xs-12">
+                        <div class="item wow bounceInUp">
+                            <img src="./images/menu/product-8.png" alt="">
+                            <h5>
+                                <a href="#">繽紛奶昔</a>
+                                <p>
+                                    最適合小朋友的飲品，<br>
+                                    有香草、巧克力和草莓三種口味。
+                                </p>
+                                <span>$109</span>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-6 col-xl-4 col-xs-12">
+                        <div class="item wow bounceInUp">
+                            <img src="./images/menu/product-15.png" alt="">
+                            <h5>
+                                <a href="#">無糖綠茶</a>
+                                <p>
+                                    不喝含糖飲料的你，<br>
+                                    我們也有提供無糖綠茶喔。
+                                </p>
+                                <span>$49</span>
+                            </h5>
+                        </div>
+                    </div>
+              </div>
+          </div>
+      </section>
+      <section id="dessert">
+          <h4>甜點</h4>
+          <div class="container">
+              <div class="row drink-item">
+                <div class="col-md-6 col-lg-4 col-sm-6 col-xl-4 col-xs-12">
+                    <div class="item wow bounceInUp">
+                        <img src="./images/menu/product-7.png" alt="">
+                        <h5>
+                            <a href="#">雙拼杯子蛋糕</a>
+                            <p>
+                                漢堡吃不飽想來點甜點？<br>
+                                一次兩種口味滿足你的甜點胃。
+                            </p>
+                            <span>$79</span>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-6 col-xl-4 col-xs-12">
+                    <div class="item wow bounceInUp">
+                        <img src="./images/menu/product-16.png" alt="">
+                        <h5>
+                            <a href="#">莓好時光</a>
+                            <p>
+                                覆盆莓和草莓配上現煎鬆餅，<br>
+                                是不少女孩的最愛。
+                            </p>
+                            <span>$149</span>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-6 col-xl-4 col-xs-12">
+                    <div class="item wow bounceInUp">
+                        <img src="./images/menu/product-17.png" alt="">
+                        <h5>
+                            <a href="#">冰淇淋布朗尼</a>
+                            <p>
+                                香草冰淇淋和補朗尼的組合，<br>
+                                大人小朋友都讚不絕口！
+                            </p>
+                            <span>$99</span>
+                        </h5>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </section>
+      </div>
+      <footer>
+        <div class="text">
+            <img class="footer-logo" src="./images/icon/footer-logo.svg" alt="">
+            <p class="instruction">
+                圖片僅供參考，商品以各門市實際供應為準<br>
+                Failed to lose weight® is a Registered Trademark of  IP LLC. © <br>
+                2022 Failed to lose weight IP LLC. All Rights Reserved<br>
+            </p>
+            <ul id="footer-link">
+                <li><a href="about.html">關於我們</a></li>
+                <li><a href="news.html">最新活動</a></li>
+                <li><a href="menu.html">美味餐點</a></li>
+                <li><a href="store.html">分店資訊</a></li>
+                <li><a href="join us.html">加入我們</a></li>
+                <li><a href="contact.html">聯絡我們</a></li>
+            </ul>
+        </div>
+        <p>本網站為緯育TibaMe前端設計工程師班第74期學員專題作品，<br>
+            本平台僅供學習、展示之用。<br>
+            參考資源：Pinterest | Subway | Beardpapa.jp | Chili’s。<br>
+            若有侵權疑慮，您可以私訊 TibaMe前端設計工程師養成班 ，後續會由專人協助處理。
+        </p>
+    </footer>
+</body>
+<script src="./javascript/plugins/Jquery/jquery-3.6.0.min.js"></script>
+<script src="./javascript/common.js"></script><!--edit by cynthia-->
+</html>

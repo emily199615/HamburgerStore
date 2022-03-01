@@ -1,0 +1,116 @@
+@import url('common/all.css');
+@import url('common/header.css');
+@import url('common/footer.css');
+@import url('plugins/animate/animate.css');
+@import url('../RWD/menu-rwd.css');
+
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Serif TC', serif;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.contain{
+    position: relative;
+    padding: 80px 120px 0px 120px;
+    /* padding-bottom: 200px; */
+}
+.wrap{
+    width: 1200px;
+    /* height: 1000px; */
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+/* 標題 */
+h2{
+    display: inline-block;
+    position: relative;
+    font-size: 60px; 
+    font-weight: 900;
+    color: #474746;
+    padding-bottom: 60px;
+    
+}
+h2::before{
+    position: absolute;
+    content: ""; 
+    width: 80px;
+    height: 80px;
+    border-radius: 50% 50% 0 50%;
+    background: #4DB997;
+    top: -20px;
+    left: -40px;
+    z-index: -1;
+}
+h3{
+    display: inline-block;
+    font-size: 35px;
+    padding-left: 20px;
+    color: #474746;
+    
+}
+/* 項目（副標題設定） */
+h4{
+    color: #474746;
+    font-size: 35px;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 10px solid #F4AB37;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+}
+/* item設定 */
+#food, #drink, #dessert{
+    padding-bottom: 60px;
+}
+.food-item, .drink-item, .dessert-item{
+    display: flex;
+    /* justify-content: space-around; */
+    padding-bottom: 30px;
+    margin-left: 120px;
+}
+.item{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.item a{
+    text-decoration: none;
+    color: #474746;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+.item p{
+    color: #808080;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    line-height: 1.4;
+    font-size: 16px;
+}
+.item span{
+    color: #F4AB37;
+    font-weight: 800;
+    font-size: 40px;
+}
+/* hover設定 */
+.item img{
+    height: 45%;
+    width: 320px;
+    padding-bottom: 30px;
+    overflow:hidden;
+    transform:scale(1,1);
+    transition: all 1s ease-out;
+
+}
+.item img:hover{
+    transform:scale(1.2,1.2);
+}
+/* 進場效果 */
+.item{
+    animation: bounceInUp; 
+    animation-duration: 2.5s;
+    --animate-delay: 0.9s;
+}

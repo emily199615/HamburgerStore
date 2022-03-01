@@ -1,0 +1,123 @@
+@import url('common/all.css');
+@import url('common/header.css');
+@import url('common/footer.css');
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Serif TC', serif;
+    font-family: 'Oswald', sans-serif;
+    /* min-width: 1440px; */
+}
+.wrap{
+    margin: 0 auto;
+    width: 1200px;
+    /* height: 1000px; */
+    /* border: 1px solid black; */
+}
+.contain{
+    position: relative;
+    padding: 80px 120px 150px;
+    /* padding-bottom: 200px; */
+}
+/* 標題 */
+h2{
+    display: inline-block;
+    position: relative;
+    font-size: 60px; 
+    font-weight: 900;
+    color: #474746;
+    padding-bottom: 60px;
+    
+}
+h2::before{
+    position: absolute;
+    content: ""; 
+    width: 80px;
+    height: 80px;
+    border-radius: 50% 50% 0 50%;
+    background: #4DB997;
+    top: -20px;
+    left: -40px;
+    z-index: -1;
+}
+h3{
+    display: inline-block;
+    font-size: 35px;
+    padding-left: 20px;
+    color: #474746;
+}
+/* 店鋪排版設定 */
+.store-item{
+    display: flex;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+.store-text{
+    padding-left: 60px;
+    padding-top: 35px;
+}
+.store-item img{
+    width: 300px;
+    
+}
+.store-item h4{
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 20px;
+    color: #474746;
+    border-left: 10px solid #F4AB37;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.store-item h6{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 800;
+    padding-left: 20px;
+    color: #474746;
+}
+.store-item span{
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #474746;
+    padding-bottom: 10px;
+}
+.store-item eng-title{
+    display: inline-block;
+}
+.store-item h5{
+    font-size: 20px;
+    font-weight: 500;
+    /* line-height: 1.4; */
+    padding-top: 10px;
+    color: #808080;
+    letter-spacing: 3px;
+    
+}
+.payment-method{
+    display: flex;
+    padding-top: 50px;
+}
+.payment-method span{
+    font-size: 20px;
+    font-weight: 500;
+    /* line-height: 1.4; */
+    padding-top: 10px;
+    color: #808080;
+}
+.payment-method img{
+    width: 80px;
+    /* display: block; */
+    /* line-height: 1.4; */
+    /* padding-top: 5px; */
+    padding-right: 20px;
+}
+/* 進場效果 */
+.store-item{
+    animation: fadeIn; 
+    animation-duration: 4s;
+    /* --animate-delay: 5s; */
+}

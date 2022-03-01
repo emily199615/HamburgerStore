@@ -1,0 +1,97 @@
+@import url('common/all.css');
+@import url('common/header.css');
+@import url('common/footer.css');
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Serif TC', serif;
+    font-family: 'Oswald', sans-serif;
+    min-width: 1440px;
+    background-image: url('../images/news/news-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+/* wrap 置中設定 */
+.wrap{
+    width: 1200px;
+    /* height: 1000px; */
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+.contain{
+    position: relative;
+    padding: 80px 120px 150px;
+    /* padding-bottom: 200px; */
+}
+/* 標題 */
+h2{
+    display: inline-block;
+    position: relative;
+    font-size: 60px; 
+    font-weight: 900;
+    color: #474746;
+    padding-bottom: 60px;
+    
+}
+h2::before{
+    position: absolute;
+    content: ""; 
+    width: 80px;
+    height: 80px;
+    border-radius: 50% 50% 0 50%;
+    background: #4DB997;
+    top: -20px;
+    left: -40px;
+    z-index: -1;
+}
+h3{
+    display: inline-block;
+    font-size: 35px;
+    padding-left: 20px;
+    color: #474746;
+}
+/* banner設定 */
+.item-block{
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.item-block img{
+    /* display: block; */
+    width: 800px;
+    margin-bottom: 20px; 
+}
+/* Banner標題設定 */
+h5 > span{
+    display: block;
+    font-size: 20px;
+    line-height: 1.2;
+    padding-left: 5px;
+}
+h5{
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #464647;
+    line-height: 1.4;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-left: 10px solid #F4AB37;
+}
+/* 內文設定 */
+p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #808080;
+}
+.green{
+    border-left: 10px solid #4DB997;
+}
+.item-block{
+    animation: fadeIn; 
+    animation-duration: 4s;
+    /* --animate-delay: 5s; */
+}

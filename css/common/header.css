@@ -1,0 +1,104 @@
+/*//////////////////////*/
+/*//////////////////////*/
+/*///整個header外觀設定///*/
+/*//////////////////////*/
+/*//////////////////////*/
+header{
+    background-color: #F4AB37;
+    height: 120px;
+    position: sticky; 
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 2px 6px rgb(185, 185, 185) ;
+}
+nav{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.nav-icon{
+    display: flex;
+    /* border: 1px solid black; */
+}
+.nav-icon img{
+    width: 25px;
+    margin-left: 20px;
+    padding-top: 50px;
+}
+.hearder-logo{
+    /* float: left; */
+    width: 300px;
+    padding-top: 30px;
+}
+#Menu {
+    width:600px;
+    /* float: right; */
+    overflow:hidden;
+    padding-top: 50px;
+    display: flex;
+    padding-left: 50px;
+    
+}
+
+#Menu li {
+    width:100px;
+    height:22px;
+    line-height:22px;
+    /* padding-left: 20px; */
+    /* float:right; */
+    overflow:hidden;
+    text-align:center;
+}
+
+#Menu a {
+    width:100px;
+    float:left;
+    overflow:hidden;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+#Menu span {
+    display:block;
+    margin-top:-22px;
+}
+
+#Menu a:hover {
+    padding-top:22px;
+    transition: all 0.3s;
+}
+/*//////////////////////*/
+/*//////////////////////*/
+/*///header ㄉ R W D ///*/
+/*//////////////////////*/
+/*//////////////////////*/
+@media (max-width: 996px){
+    /* logo 996以下垂直置中 */
+    #Menu{
+        /* padding-top: 30px; */
+    }
+    /* logo 996以下置中 */
+    /* .navbar-nav{
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 0;
+        font-size: 22px;
+    } */
+    /* icon 996以下隱藏 */
+    /* .nav-icon img{
+        visibility: hidden;
+    } */
+    /* footer nav 996以下變直ㄉ */
+    /* #footer-link{
+        display: flex;
+        flex-direction: column;
+    } */
+    /* .container-fluid{
+        padding-top: 30px;
+    } */
+}

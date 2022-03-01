@@ -1,0 +1,152 @@
+@import url('common/all.css');
+@import url('common/header.css');
+@import url('common/footer.css');
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Serif TC', serif;
+    font-family: 'Oswald', sans-serif;
+    color: #474746;
+    /* min-width: 1440px; */
+    background-image: url('../images/join-us/join-us-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* opacity: .3; */
+}
+.wrap{
+    width: 1200px;
+    /* height: 1000px; */
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+.contain{
+    position: relative;
+    padding: 80px 120px 0px 120px;
+    /* padding-bottom: 200px; */
+}
+/* 標題 */
+h2{
+    display: inline-block;
+    position: relative;
+    font-size: 60px; 
+    font-weight: 900;
+    color: #474746;
+    padding-bottom: 60px;
+    
+}
+h2::before{
+    position: absolute;
+    content: ""; 
+    width: 80px;
+    height: 80px;
+    border-radius: 50% 50% 0 50%;
+    background: #4DB997;
+    top: -20px;
+    left: -40px;
+    z-index: -1;
+}
+h3{
+    display: inline-block;
+    font-size: 35px;
+    padding-left: 20px;
+    color: #474746;
+    
+}
+/* 標題說明 */
+.title-instruction{
+    margin-top: -20px;
+    color: #474746;
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    /* letter-spacing: 2px; */
+    padding-bottom: 60px;
+}
+/* 開放職缺 */
+h4{
+    color: #474746;
+    font-size: 35px;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 10px solid #F4AB37;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+}
+/* icon設定 */
+.icon-svg, .opening-icon-place, .opening-icon-clock{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.opening-icon-clock{
+    padding-left: 30px;
+}
+.opening-icon-place img{
+    width: 12px;
+    padding-bottom: 8px;
+}
+.opening-icon-clock img{
+   width: 15px;
+   padding-bottom: 8px;
+}
+h5{
+    font-size: 28px;
+    font-weight: 600;
+}
+.opening{
+    padding-left: 150px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.opening::after{
+    position: absolute;
+    content: ""; 
+    width: 250px;
+    height: 1px;
+    /* border-radius: 50% 50% 0 50%; */
+    background: #4b4b4b;
+    border: .3px solid rgb(212, 212, 212);
+    /* top: 20px; */
+    right: 350px;
+    bottom: 60px;
+    /* z-index: -1; */
+}
+.opening p{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    /* position: relative; */
+}
+h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
+.input{
+    height: 80px;
+    width: 200px;
+    background-color: #F4AB37;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Oswald', sans-serif;
+    border: 0;
+    border-radius: 39.5px 39.5px 39.5px 0px;
+    /* padding-top: 25px; */
+    /* padding-bottom: -50px; */
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    line-height: 80px;
+    right: 100px;
+    /* top: -10px; */
+}
+.input:hover{
+    background-color: #4DB997;
+    transition: 1s;
+    color: white;
+}
